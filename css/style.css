@@ -1,0 +1,617 @@
+*{
+    max-width: 100%;
+    margin: 0;     
+}
+body{
+    margin: 0;
+}
+/************************** Index Page*************/
+header{
+     position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+     z-index: 9999;
+    margin-bottom:20px; 
+    font-family: 'Delius', cursive;
+     
+     
+}
+header nav{
+    background-color: #FCF7F1;
+}
+header nav a{
+    font-family: "texgyretermes", serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 600;
+    padding:15px; 
+    
+}
+header nav ul li:hover{
+    background-color: #F1C4B1;
+    border-radius:2px; 
+    opacity:.7; 
+    
+}
+header nav ul li a{
+    font-style: normal;
+    font-size:18px;
+    font-weight:100; 
+    font-family: 'Delius', cursive;
+    
+}
+header nav .btn{
+    margin-right:15px;
+}
+header nav .btn:hover{
+   background-color: #F1C4B1;
+    
+   
+        
+}
+
+
+main{
+   margin-top:100px; 
+}
+
+main .MainSlider{
+    
+}
+main .MainSlider img{
+    width: 100%;
+    
+}
+
+.Heading {
+font-family: 'Frank Ruhl Libre', serif;
+    color: #000;
+    margin-bottom:50px;
+    position: relative ;
+    text-align: center;
+    padding-top: 20px;
+    font-weight:bold;
+    font-size:20px; 
+}
+main .Aboutus{
+    margin-top:50px;
+    padding-bottom:70px; 
+    background-color: #FCF7F1;
+    
+}
+main .Aboutus p{
+    color: #666;
+    font-weight:100;
+    font-size:16px;
+    font-family: 'Delius', cursive;
+    
+    
+}
+
+main .Services{
+    margin-top:30px;
+    padding-bottom:50px; 
+}
+main .Services .card{
+    border-color: #fff; 
+    text-align: center;
+}
+main .Services .btn{
+   background-color: #F1C4B1; 
+    border-color: #fff;
+    border-radius:9px; 
+    color: 
+}
+main .Services .card-text{
+    font-family: 'Delius', cursive;
+}
+main .Services .card-img-top:hover{
+    opacity:.5;
+    
+}
+
+.Testimonials{
+    background-color: #EAF5F9;
+    height:500px; 
+    padding-bottom:50px;
+    margin-top:30px; 
+    overflow: hidden;
+}
+.Testimonials p{
+    color: #555;
+    font-size:14px;
+    margin-top: -5px;
+    
+}
+
+footer{
+    background-color: #504B47;
+    padding-top:20px; 
+     padding-bottom:15px; 
+    font-size:14; 
+    margin-top:40px; 
+}
+footer .card{
+    background-color:#504B47; 
+    border-color: #504B47;
+}
+footer .card .card-header{
+    background-color:#504B47; 
+    border-color: #504B47;
+}
+footer .card .nav-link{
+    font-size:16px;
+     padding:-5px; 
+    color:#888;
+}
+footer .card h4{
+     color: #000;
+    font-family: "texgyretermes", serif;
+}
+
+footer p{
+     color: #fff;
+    font-size:14px;
+    margin:15px;
+    font-family: 'Delius', cursive;
+    line-height:16px; 
+}
+footer a{
+    color: #6B727A;
+     font-family: "texgyretermes", serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 600;
+    padding:15px;
+}
+footer .nav-link:hover , .navbar-brand:hover{
+color: #DFCDC3;
+}
+footer a{
+    color: #fff;
+     font-family: "texgyretermes", serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 600;
+    padding:15px;
+}
+footer .nav-link:hover , .navbar-brand:hover{
+color: #DFCDC3;
+}
+footer a{
+    color: #000;
+     font-family: "texgyretermes", serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 600;
+    padding:15px;
+    
+}
+
+.c  a{
+    font-size:30px; 
+    font-family: 'Fjalla One', sans-serif;
+  
+}
+
+footer .forms {
+    background-color: #72B5CA;
+    padding:25px; 
+    border-radius:10px;
+    opacity: .5;
+    margin:20px 0;
+    color:#333; 
+    text-align: center;
+}
+footer .forms input{
+    border-radius:10px;
+    margin:5px;
+    padding: 6px;
+    background-color:#fff; 
+    
+}
+footer .forms input[type=submit]{
+    background-color:#fff; 
+    padding-right:10px;
+    padding-left: 10px;
+    
+}
+footer .forms input[type=submit]:hover{
+    background-color:#5F6769; 
+    color: #fff;
+}
+footer .copy{
+    text-align: center;
+    color:#666;
+    font-size:15px;
+    border-top:1px solid #fff;
+    padding-top:5px; 
+}
+
+/**********About Page*******/
+.breadcrumbb{
+    margin-top:30px;
+    margin-bottom:50px; 
+    height:150px;
+    padding: 15px;
+    background-color:#504B47;
+    color: #fff;
+    padding-top:50px; 
+    
+}
+.breadcrumb{
+    background-color:#504B47;
+    
+    
+}
+.breadcrumb a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.breadcrumb a:hover{
+    color: #F1C4B1;
+}
+
+main .AboutTeam{
+    
+    text-align: center;
+    color: #333;
+    
+     
+    
+    
+}
+main .AboutTeam .card-title{
+     font-family: "texgyretermes", serif;
+}
+main .AboutTeam .card{
+    border-color: #fff; 
+    text-align: center;
+}
+
+.AboutTeam .c .nav-item a{
+    font-size:10px; 
+    text-align: center;
+    color: #fff;
+    
+}
+.model {
+    margin-top:30px;
+    margin-bottom:50px; 
+    height:150px;
+    padding: 15px;
+    background-color:#504B47;
+    color: #fff;
+    padding-top:50px; 
+}
+.model .btn{
+    background-color: #F1C4B1;
+    color: #fff;
+    padding:10px 30px;
+    text-align: center;
+    margin: auto;
+    border-radius:40px; 
+    font-size:18px;
+    font-weight:100;
+    font-family: "texgyretermes", serif;
+    border-color: #333;
+    
+    
+}
+.model .btn:hover{
+    background-color: #fff;
+    color: #F1C4B1;
+}
+.model .modal{
+    padding-top:20px; 
+}
+
+
+/**********ٍServices Page*******/
+.ques {
+    margin-top:30px;
+    margin-bottom:50px;
+    padding:30px 0; 
+    background-color: #EAF5F9; 
+}
+.ques .card{
+    border-radius:10px; 
+    background-color: #EAF5F9;
+    margin:10px; 
+}
+.projects{
+    
+    margin-bottom:70px;
+    
+}
+.projects .card {
+    margin-bottom: 15px;
+    overflow: hidden;
+    
+    padding:5px; 
+    
+     border-color:#fff; 
+  
+}
+.projects .card:hover{
+     
+   
+}
+
+.projects .nav-link{
+    font-weight:100px;
+    font-family: 'Libre Baskerville', serif; 
+    font-size:18px;
+    color:#333; 
+}
+.projects .nav-link:hover{
+    color:#C7BBB1; 
+}
+.content {
+    
+  background-color: #EAF5F9;
+}
+
+.content .card{
+    max-height:50%; 
+    border-color:#EAF5F9; 
+    background-color: #EAF5F9;
+    padding:30px; 
+}
+.content .card-img-top{
+    width: 60%;
+    margin: auto;
+    
+}
+.content .card-title{
+font-family: 'Fjalla One', sans-serif; 
+    text-align: center;
+}
+.content .card-text{
+    margin:0 20%
+}
+.content .ca{
+    border: 1px solid #000;
+    color: #fff;
+    margin: 10px 0;
+    
+}
+.content .ca a{
+    
+}
+.content .card:hover{
+    opacity: .5;
+}
+
+/**********Contact Us Page*******/
+.map{
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.Icons{
+    margin-top:50px;
+    margin-bottom:70px;
+    padding-top:20px;
+    padding-bottom:20px; 
+    background-color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Icons .card{
+    border-color:#fff;
+  
+}
+.Icons .card{
+    color: #888;
+    font-size:14px; 
+}
+.Icons .card a{
+   color: #F1C4B1;
+    font-size:60px; 
+}
+
+.Conta{
+    margin-top:50px;
+    margin-bottom:70px;
+    padding-top:20px;
+    padding-bottom:20px; 
+    background-color: #Fff;
+  
+}
+.Conta .card{
+    background-color: #Fff;
+    border-color:#Fff;
+}
+.Conta .list-group{
+    position: relative;
+    font-family: "Font Awesome 5 free"
+}
+
+.Conta .list-group-item{
+    background-color: #Fff;
+    border-color:#Fff;
+  
+    
+}
+.Conta .list-group-item::after{
+    content: "";
+    top: 0;
+    left:0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    font-size:20px;
+    
+    margin-top:16px;
+    margin-right:15px; 
+    
+}
+.Conta  .list-group-item:first-child::after{
+    content: "\f3cd";
+    font-weight: 900;
+}
+.Conta .x .list-group-item:nth-child(2)::after{
+    content: "\f0e0";
+    font-weight: 900;
+}
+.Conta .x .list-group-item:nth-child(3)::after{
+    content: "\f3c5";
+    font-weight: 900;
+}
+.Conta .x .list-group-item:nth-child(4)::after{
+    content: "\f017";
+    font-weight: 900;
+}
+
+.Conta .y .list-group-item:first-child::after{
+    content: "\f09c";
+    font-weight: 900;
+}
+.Conta .y .list-group-item:nth-child(2)::after{
+    content: "\f27a";
+    font-weight: 900;
+}
+.Conta .y .list-group-item:nth-child(3)::after{
+    content: "\f2b9";
+    font-weight: 900;
+}
+.Conta .y .list-group-item:nth-child(4)::after{
+    content: "\f644";
+    font-weight: 900;
+}
+
+.Conta .c .nav-item {
+
+    margin-top:40px;
+    
+}
+ .c .nav-item a{
+    background-color: #72B5CA;
+    font-size:20px; 
+    margin:5px; 
+    border-radius:50%;
+    color: #fff;
+}
+ .c .nav-item a:hover{
+    background-color: #F1C4B1;
+    
+}
+
+.CForm{
+    margin-top:50px;
+    margin-bottom:70px;
+    padding-top:20px;
+    padding-bottom:40px; 
+    background-color: #72B5CA;
+}
+.CForm form{
+    text-align: center;
+    
+}
+.CForm form .form-row input,.CForm form .form-group textarea,.CForm form .btn{
+    border-radius:30px; 
+
+}
+
+
+.CForm form .form-row input{
+    background: none;
+    transform: translateX(40%);
+}
+.CForm form .form-group textarea{
+    background: none;
+}
+
+.CForm form .btn{
+    padding:8px 30px; 
+    background-color: #578796;
+    border-color: #578796
+}
+.CForm form .btn:hover{
+    
+    background-color: #F1C4B1;
+}
+
+/**********Team Page*******/
+.content form{
+    margin-top:25px; 
+}
+.content form .btn{
+    padding:8px 30px; 
+    background-color: #F1C4B1;
+    border-color: #578796;
+    margin-top:10px; 
+    text-align: center;
+    
+    
+}
+.content form .btn:hover{
+    background-color: #578796;
+}
+.Related #demo{
+    text-align: center;
+}
+.Related .card{
+    border-color: #fff;
+    
+}
+
+
+
+
+
+
+
+ /**********FooterPage*******/
+
+
+
+
+
+footer {
+color: #fff;
+background-attachment: fixed;
+background-color:#222;
+
+}
+footer p {
+color: #ccc;				
+}
+footer a {
+color: #ccc;				
+}
+
+.recent-post li {
+display: block;
+color: #ccc;
+margin-bottom:25px;
+margin-left:-35px; 
+}
+footer .c{
+    margin-top:35px; 
+}
+
+
+			
+footer .input-group-addon {
+background-color: #578796;
+padding: 10px;
+ 
+}
+			/*=-Copyright-=*/
+.copyright {
+background-color: #111;
+padding: 12px 0;
+font-size:14px;
+}
+
+
+
+
+
+
+
+
+
